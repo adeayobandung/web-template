@@ -27,13 +27,17 @@ body {
     z-index: 1000;
 }
 
-
 @media (min-width: 992px) {
     .card-title-cust {
         z-index: 2;
         display: block;
         position: absolute;
         margin-top: 260px;
+    }
+
+    .card-img-cust img {
+        background-size: cover;
+        height: 100%;
     }
 
     .nav-link {
