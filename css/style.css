@@ -1,0 +1,55 @@
+body {
+    margin-top: 55px;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.7);
+}
+
+.bg-nav-ayobdg {
+    background-color: #0A3954;
+}
+
+.card-bg-cust::after {
+    content: '';
+    display: block;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+}
+
+.card-title-cust a {
+    color: #FFFFFF;
+    z-index: 1000;
+}
+
+
+@media (min-width: 992px) {
+    .card-title-cust {
+        z-index: 2;
+        display: block;
+        position: absolute;
+        margin-top: 260px;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+    }
+
+    .nav-item .dropdown-menu {
+        width: 200px;
+    }
+
+
+    .jumbotron {
+        height: 280px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+}
