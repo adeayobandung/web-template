@@ -39,6 +39,10 @@ body {
     color: #FFFFFF;
 }
 
+.navbar-toggler-icon {
+    color: #FFFFFF;
+}
+
 @media (min-width: 992px) {
     .card-title-cust {
         z-index: 2;
