@@ -31,6 +31,21 @@ body {
     z-index: 1000;
 }
 
+.card-title-cust a:hover {
+    color: #F6921E;
+    z-index: 1000;
+}
+
+.card-title-cust-reg a {
+    color: #FFFFFF;
+    z-index: 1000;
+}
+
+.card-title-cust-reg a:hover {
+    color: #FFBA08;
+    z-index: 1000;
+}
+
 .footer-border {
     border-top: 3px solid #ffba08;
 }
@@ -41,6 +56,24 @@ body {
 
 .navbar-toggler-icon {
     color: #FFFFFF;
+}
+
+.ayo-title {
+    text-transform: uppercase;
+    font-family: 'Knewave', cursive;
+}
+
+.ayo-title span {
+    text-transform: lowercase;
+    color: #F6921E;
+}
+
+a.stretched-link:hover {
+    text-decoration: none;
+}
+
+.stretched-link:hover::after {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 @media (min-width: 992px) {
