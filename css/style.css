@@ -76,12 +76,17 @@ a.stretched-link:hover {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
+.carousel-inner {
+    width: 100%;
+    max-height: 400px !important;
+}
+
 @media (min-width: 992px) {
     .card-title-cust {
         z-index: 2;
         display: block;
         position: absolute;
-        margin-top: 260px;
+        margin-top: 100px;
     }
 
     .card-img-cust img {
@@ -104,5 +109,13 @@ a.stretched-link:hover {
 
     .jumbotron .display-4 {
         font-size: 62px;
+    }
+
+    .jumbo-headline {
+        margin-top: -50px;
+    }
+
+    .ayo-search {
+        margin-top: -35px;
     }
 }
